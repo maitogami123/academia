@@ -1,0 +1,14 @@
+@import url('../section/header.css');
+@import url('../elements/child-page-header.css');
+@import url('../section/blogs.css');
+@import url('../elements/pagination.css');
+@import url('../section/subscribe.css');
+@import url('../section/footer.css');
+
+.blogs {
+    margin-top: 128px;
+}
+
+.blog__wrapper {
+    margin-top: 16px;
+}

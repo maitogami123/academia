@@ -1,19 +1,30 @@
-.header {
+@import url('./elements/btn.css');
+@import url('./section/header.css');
+@import url('./section/header-content.css');
+@import url('./section/benefits.css');
+@import url('./section/status.css');
+@import url('./section/courses.css');
+@import url('./section/online-courses.css');
+@import url('./section/testimonial.css');
+@import url('./section/blogs.css');
+@import url('./section/pricing.css');
+@import url('./section/subscribe.css');
+@import url('./section/footer.css');
+
+
+/* .header {
     background-image: url('../img/header-background.webp');
     min-height: 100vh;
     background-attachment: fixed;
-    background-position: center;
+    background-position: contain;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
-}
+} */
 
-body {
-    background-color: #f8f8f8;
-}
 /* Navbar */
 
-.top-nav,
+/* .top-nav,
 .working-time,
 .nav-content,
 .contact {
@@ -84,7 +95,7 @@ body {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    background-color: rgba(255,255,255,.2);
+    background-color: var(--white-color);
     border-radius: 50%;
     margin-right: 2px;
     transition: all .2s ease;
@@ -176,7 +187,15 @@ body {
     font-weight: 400;
 }
 
-.btn {
+.header-btn {
+    margin-right: 12px;
+}
+
+.btn-icon {
+    margin-left: 4px;
+} */
+
+/* .btn {
     border: none;
     padding: 16px 24px;
     cursor: pointer;
@@ -188,10 +207,6 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: all 0.2s ease;
-}
-
-.btn-icon {
-    margin-left: 4px;
 }
 
 .btn.btn-primary {
@@ -206,11 +221,14 @@ body {
 
 .btn:hover {
     box-shadow: none;
-}
+} */
+
+
+
 
 /* Benefits */
 
-.benefits__img {
+/* .benefits__img {
     object-fit: cover;
     width: 100%;
 }
@@ -271,11 +289,11 @@ body {
 
 .item__heading {
     margin-bottom: 15px;
-}
+} */
 
 /* Stat */
 
-.status {
+/* .status {
     position: relative;
     background-image: url('../img/status.webp');
     background-position: center;
@@ -303,8 +321,8 @@ body {
 .status__icon {
     align-self: flex-start;
     font-size: 60px;
+    text-align: center;
     color: var(--white-color);
-    padding-right: 20px;
 }
 
 .counter__number {
@@ -316,11 +334,11 @@ body {
 
 .counter__name {
     color: var(--white-color);
-}
+} */
 
 /* Courses */
 
-.courses {
+/* .courses {
     padding-top: 128px;
     text-align: center;
     margin-left: -12px;
@@ -418,13 +436,11 @@ body {
     color: var(--white-color);
     background-color: var(--primary-color);
     width: 100%;
-}
-
-
+} */
 
 /* All Courses */
 
-.online-courses {
+/* .online-courses {
     text-align: center;
     padding: 128px 0;
 }
@@ -475,11 +491,11 @@ body {
     font-size: 13px;
     font-weight: 500;
     border-radius: 4px;
-}
+} */
 
 /* Testimonial */
 
-.testimonial {
+/* .testimonial {
     text-align: center;
     padding: 128px 0;
     margin-left: -12px;
@@ -582,11 +598,11 @@ body {
 
 .tns-nav .tns-nav-active {
     background: var(--primary-color);
-}
+} */
 
 /* Blogs */
 
-.blogs {
+/* .blogs {
     margin-bottom: 128px;
 }
 
@@ -646,11 +662,11 @@ body {
     line-height: 1.8;
     font-weight: 400;
     margin-bottom: 16px;
-}
+} */
 
 /* Pricing */
 
-.pricing {
+/* .pricing {
     text-align: center;
     margin-bottom: 30px;
 }
@@ -705,11 +721,11 @@ body {
 .plan__btn:hover {
     background-color: var(--primary-color);
     color: var(--white-color);
-}
+} */
 
-/* Subcribe  */
+/* Subscribe  */
 
-.subscribe {
+/* .subscribe {
     background-color: var(--primary-color);
     display: flex;
     padding: 48px 0;
@@ -760,11 +776,11 @@ body {
 
 .subscribe__icon {
     color: var(--white-color);
-}
+} */
 
 /* Footer */
 
-.footer {
+/* .footer {
     margin-top: 80px;
     margin-bottom: 48px;
 }
@@ -893,11 +909,11 @@ body {
     margin-bottom: 15px;
     font-size: 15px;   
     color: rgba(0,0,0,.8);
-}
+} */
 
 /* copy right */
 
-.copy-right {
+/* .copy-right {
     text-align: center;
     padding: 48px 0;
 }
@@ -908,10 +924,10 @@ body {
 
 .author {
     text-align: center;
-}
+} */
 
 /* subnav */
-
+/* 
 @keyframes expand {
     from {
         height: 0px;
@@ -946,4 +962,4 @@ body {
     font-size: 16px;
     height: var(--bottom-nav-height);
     letter-spacing: .1em;
-}
+} */

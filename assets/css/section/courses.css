@@ -1,0 +1,99 @@
+.courses {
+    padding-top: 128px;
+    text-align: center;
+    margin-left: -12px;
+    margin-right: -12px;
+}   
+
+.courses__titles {
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+
+.courses__heading {
+    margin-bottom: 48px;
+    line-height: 1.4;
+}
+
+.course__item {
+    box-sizing: border-box;
+    margin-top: 56px;
+    padding: 30px;
+    background-color: var(--white-color);
+}
+
+.course__wrapper {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.course__icon {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 42.5px;
+    padding: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+    margin-right: 20px; 
+}
+
+.course__heading {
+    margin-bottom: 5px;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+.course__rating {
+    font-size: 13px;
+    color: var(--primary-color);
+    line-height:1;
+    margin-bottom: 5px;
+}
+
+.rating__details {
+    font-size: 14px;
+}
+
+.course__teacher {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.teacher__pfp {
+    width: 30px;
+    height: 30px;
+    border-radius:20px;
+}
+
+.teacher__info {
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+.courses__pricing {
+    background-color: #f8f8f8;
+    padding: 16px 0;
+    color: var(--primary-color);
+    font-weight: 500;
+    border-radius: .25rem;
+    margin-bottom: 16px;
+}
+
+.courses__enroll {
+    outline: 1px solid var(--primary-color);
+    width: 100%;
+    transition: all .2s ease;
+}
+
+.courses__enroll:hover {
+    box-shadow: none;
+    outline: 1px solid var(--primary-color);
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    width: 100%;
+}

@@ -1,0 +1,52 @@
+.subscribe {
+    background-color: var(--primary-color);
+    display: flex;
+    padding: 48px 0;
+    overflow: hidden;
+    align-items: center;
+    margin-top: 128px;
+}
+
+.subscribe__heading {
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.subscribe__description {
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #f8f8f8;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+.subscribe__input {
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    padding: 0;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    flex: 1;
+    padding: 12px 0;
+    line-height: 1.4;
+}
+
+.subscribe__input:focus {
+    outline: none;
+}
+
+.subscribe__input::placeholder {
+    color: #f8f8f8;
+}
+
+.subscribe__icon {
+    color: var(--white-color);
+}

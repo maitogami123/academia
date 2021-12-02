@@ -1,0 +1,42 @@
+.status {
+    position: relative;
+    background-image: url('../../img/status.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;   
+}
+
+.status::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.3);
+}
+
+.status__item {
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.status__icon {
+    align-self: flex-start;
+    font-size: 60px;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.counter__number {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--white-color);
+    line-height: 1;
+}
+
+.counter__name {
+    color: var(--white-color);
+}

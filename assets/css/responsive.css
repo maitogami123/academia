@@ -35,6 +35,13 @@
 /* tablet & mobile */
 
 @media only screen and (max-width: 63.9375em) {
+    .header,
+    .child-header {
+        background-position: center;
+    }
+
+
+
     .bottom-nav {
         box-sizing: border-box;
         position: relative;
@@ -81,11 +88,6 @@
 
 
 @media only screen and (min-width: 64em) {
-    
-    .tns-item:not(.tns-slide-active)  + .tns-slide-active + .tns-slide-active .courses__enroll { 
-        background: var(--primary-color);
-        color: var(--white-color);
-    }
 
     .tns-item:not(.tns-slide-active)  + .tns-slide-active + .tns-slide-active .user-icon { 
         background: var(--white-color);

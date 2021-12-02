@@ -1,0 +1,56 @@
+.pricing {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pricing__header {
+    margin-bottom: 64px;
+}
+
+.plan__wrapper {
+    background-color: var(--white-color);
+    padding: 30px 0;
+    box-shadow: 0 24px 48px -13px rgb(0 0 0 / 5%);
+    transition: all .5s ease;
+}
+
+.plan__wrapper:hover {
+    box-shadow: 0 24px 48px -13px rgb(0 0 0 / 11%);
+}
+
+.plan__heading {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.plan__price sup {
+    font-size: 24px;
+    top: -.8em;
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+.plan__price {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.8;
+    color: var(--primary-color);
+    display: block;
+}
+
+
+.plan__content {
+    padding: 24px 48px;
+    margin-bottom: 1rem;
+}
+
+.plan__btn {
+    border: 1px solid var(--primary-color);
+    transition: all .2s ease;
+}
+
+.plan__btn:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}

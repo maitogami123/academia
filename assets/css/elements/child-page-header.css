@@ -1,0 +1,41 @@
+.child-header {
+    background-image: url('../../img/blog.webp');
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.child-header__content {
+    text-align: center;
+    position: relative;
+    top: 50vh;
+    transform: translateY(-25vh);
+}
+
+.child-header__current-section {
+    text-transform: uppercase;
+    color: var(--white-color);
+    font-size: 16px;
+    margin-bottom: 10px;
+    z-index: 99;
+    font-weight: 700;
+}
+
+.child-header__back-to-home {
+    color: var(--white-color);
+    padding-right: 12px;
+    transition: all .2s ease;
+}
+
+.child-header__back-to-home:hover {
+    color: var(--primary-color);
+}
+
+.child-header__heading {
+    font-weight: 400;
+    color: #fff;
+    font-size: 70px;
+}

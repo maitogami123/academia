@@ -1,0 +1,33 @@
+.pagination__items {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.pagination__item {
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    border: 1px solid #e6e6e6;
+    margin: 0 2px;
+    transition: all 0.2s ease;
+}
+
+.pagination__item.active,
+.pagination__item:hover {
+    background-color: var(--primary-color);
+    border: 1px solid transparent;
+}
+
+.pagination__item.active .pagination__link,
+.pagination__item:hover .pagination__link {
+    color: var(--white-color);
+}
+
+.pagination__link {
+    color: #000;
+    display: block;
+}
