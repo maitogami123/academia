@@ -1,0 +1,10 @@
+@import url('../elements/accodion.css');
+
+.faq {
+    margin-top: 128px;
+}
+
+.faq__header {
+    text-align: center;
+    margin-bottom: 64px;
+}

@@ -1,0 +1,11 @@
+@import url('../section/header.css');
+@import url('../elements/btn.css');
+@import url('../elements/child-page-header.css');
+@import url('../section/faq.css');
+@import url('../section/pricing.css');
+@import url('../section/subscribe.css');
+@import url('../section/footer.css');
+
+.pricing {
+    margin-top: 128px;
+}

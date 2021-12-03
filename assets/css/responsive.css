@@ -24,6 +24,20 @@
     .footer-links {
         margin-bottom: 16px;
     }
+
+    .follow-us{
+        margin: 0;
+    }
+
+    .contact__info,
+    .form-group {
+        padding: 0;
+    }
+
+    .form-submit {
+        margin: 0;
+        margin-bottom: 64px;
+    }
 }
 
 /* breakpoint for tablet device width >= 740px && width < 1024px*/
@@ -39,8 +53,6 @@
     .child-header {
         background-position: center;
     }
-
-
 
     .bottom-nav {
         box-sizing: border-box;

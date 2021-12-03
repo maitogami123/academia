@@ -1,0 +1,113 @@
+@import url('../elements/btn.css');
+@import url('../section/header.css');
+@import url('../elements/child-page-header.css');
+
+@import url('../section/subscribe.css');
+@import url('../section/footer.css');
+
+.contact-us-container {
+    margin-top: 128px;
+}
+
+.contact-wrapper {
+    padding: 48px;
+    background-color: #fff;
+}
+
+.contact__heading {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.contact__sub-heading {
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+
+.contact__info {
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+    padding: 0 12px;
+    margin-bottom: 26px;
+}
+
+.contact__info span {
+    color: black;
+    text-transform: uppercase;
+    display: block;
+    line-height: 1.8;
+}
+
+.contact__info a {
+    color: var(--primary-color);
+}
+
+.form-group {
+    padding: 0 12px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-control__contact__textarea {
+    resize: none;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    border-radius: 2px;
+    padding: 6px 12px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.form-control__contact {
+    height: 45px;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    border-radius: 2px;
+    padding: 6px 12px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.form-control__contact:focus,
+.form-control__contact__textarea:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+.form-submit {
+    margin: 0 12px;
+    margin-bottom: 64px;
+}
+
+.follow-us {
+    margin: 0 12px;
+}
+
+.follow-us__heading {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.follow-us__list {
+    display: flex;
+}
+
+.follow-us__item {
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.item__link {
+    color: var(--primary-color);
+}
+

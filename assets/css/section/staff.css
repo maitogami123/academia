@@ -1,0 +1,86 @@
+.staff__card-wrapper {
+    margin-top: 128px;
+}
+
+.staff__card {
+    background-color: var(--white-color);
+    transition: background-color .2s ease;
+    border-radius: 4px;
+}
+
+.staff__card:hover .contact-list{
+    opacity: 1;
+}
+
+.staff__card:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.staff__card:hover .content__description {
+    color: var(--white-color);
+}
+
+.card__img-wrapper {
+    position: relative;
+    margin-top: 20px;
+}
+
+.card__img {
+    width: 100%;
+    display: block;
+    height: 420px;
+    background-position: top center;
+    object-fit: cover;
+}
+
+.contact-list {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.card__content {
+    text-align: center;
+    padding: 20px;
+}
+
+.content__heading {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 8px;
+}
+
+.content__description {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.8;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.contact-link {
+    position: relative;
+    color: var(--white-color);
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-color: black;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    transition: background-color .2s ease;
+}
+
+.contact-link:hover {
+    background-color: var(--primary-color);
+}
+
+.contact-link__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

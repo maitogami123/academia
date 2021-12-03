@@ -1,0 +1,14 @@
+@import url('../section/header.css');
+@import url('../elements/child-page-header.css');
+@import url('../section/staff.css');
+@import url('../section/status.css');
+@import url('../section/subscribe.css');
+@import url('../section/footer.css');
+
+.subscribe {
+    margin-top: 0;
+}
+
+.status {
+    margin-top: 128px;
+}
