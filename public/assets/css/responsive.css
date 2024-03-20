@@ -1,121 +1,132 @@
 @media only screen and (max-width: 46.1875em) {
-    .buttons-wrapper {
-        display: flex;
-        flex-direction: column;
-    }
+  .buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .buttons-wrapper .btn {
-        margin-bottom: 4px;
-    }
+  .buttons-wrapper .btn {
+    margin-bottom: 4px;
+  }
 
-    .status__item {
-        margin-bottom: 20px;
-    }
+  .status__item {
+    margin-bottom: 20px;
+  }
 
-    .status__icon {
-        text-align: center;
-    }
+  .status__icon {
+    text-align: center;
+  }
 
-    .courses,
-    .testimonial {
-        margin: 0;
-    }
+  .courses,
+  .testimonial {
+    margin: 0;
+  }
 
-    .footer-links {
-        margin-bottom: 16px;
-    }
+  .footer-links {
+    margin-bottom: 16px;
+  }
 
-    .follow-us{
-        margin: 0;
-    }
+  .follow-us {
+    margin: 0;
+  }
 
-    .contact__info,
-    .form-group {
-        padding: 0;
-    }
+  .contact__info,
+  .form-group {
+    padding: 0;
+  }
 
-    .form-submit {
-        margin: 0;
-        margin-bottom: 64px;
-    }
+  .form-submit {
+    margin: 0;
+    margin-bottom: 64px;
+  }
 }
 
 /* breakpoint for tablet device width >= 740px && width < 1024px*/
 
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
-    
 }
 
 /* tablet & mobile */
 
 @media only screen and (max-width: 63.9375em) {
-    .header,
-    .child-header {
-        background-position: center;
-    }
+  .header,
+  .child-header {
+    background-position: center;
+  }
 
-    .bottom-nav {
-        box-sizing: border-box;
-        position: relative;
-        width: 100vw;
-        left: calc(-50vw + 50%);
-        background-color: #22c8ba;
-    }
-    
-    .enroll {
-        margin-left: 12px;
-        width: 250px;
-    }
-    
-    .enroll::before {
-        content: none;
-    }
+  .bottom-nav {
+    box-sizing: border-box;
+    position: relative;
+    width: 100vw;
+    left: calc(-50vw + 50%);
+    background-color: #22c8ba;
+  }
 
-    .online-course__item {
-        margin-top: 16px;
-    }
-    
-    .status__item {
-        margin-bottom: 20px;
-    }
+  .enroll {
+    margin-left: 12px;
+    width: 250px;
+  }
 
-    .online-course__heading {
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        text-overflow: ellipsis;
-    }
+  .enroll::before {
+    content: none;
+  }
 
+  .online-course__item {
+    margin-top: 16px;
+  }
 
-    .blog__wrapper {
-        margin-top: 16px;
-    }
+  .status__item {
+    margin-bottom: 20px;
+  }
 
-    .plan__wrapper {
-        margin-top: 28px;
-    }
+  .online-course__heading {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+  }
+
+  .blog__wrapper {
+    margin-top: 16px;
+  }
+
+  .plan__wrapper {
+    margin-top: 28px;
+  }
 }
 
 /* breakpoint for pc device width > 1024px */
 
-
 @media only screen and (min-width: 64em) {
+  .tns-item:not(.tns-slide-active)
+    + .tns-slide-active
+    + .tns-slide-active
+    .user-icon {
+    background: var(--white-color);
+    color: var(--primary-color);
+  }
 
-    .tns-item:not(.tns-slide-active)  + .tns-slide-active + .tns-slide-active .user-icon { 
-        background: var(--white-color);
-        color: var(--primary-color);
-    }
-    
-    .tns-item:not(.tns-slide-active)  + .tns-slide-active + .tns-slide-active .testimonial__item {
-        background-color: var(--primary-color);
-    }
-    
-    .tns-item:not(.tns-slide-active)  + .tns-slide-active + .tns-slide-active .user-name,
-    .tns-item:not(.tns-slide-active)  + .tns-slide-active + .tns-slide-active .user-job {
-        color: var(--white-color);
-    }
-    
-    .tns-item:not(.tns-slide-active)  + .tns-slide-active + .tns-slide-active .testimonial__review {
-        color: #f8f8f8;
-    }
+  .tns-item:not(.tns-slide-active)
+    + .tns-slide-active
+    + .tns-slide-active
+    .testimonial__item {
+    background-color: var(--primary-color);
+  }
+
+  .tns-item:not(.tns-slide-active)
+    + .tns-slide-active
+    + .tns-slide-active
+    .user-name,
+  .tns-item:not(.tns-slide-active)
+    + .tns-slide-active
+    + .tns-slide-active
+    .user-job {
+    color: var(--white-color);
+  }
+
+  .tns-item:not(.tns-slide-active)
+    + .tns-slide-active
+    + .tns-slide-active
+    .testimonial__review {
+    color: #f8f8f8;
+  }
 }
