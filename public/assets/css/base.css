@@ -1,74 +1,75 @@
 :root {
-    --top-nav-height: 94px;
-    --bottom-nav-height: 75px;
-    --primary-color: #1eb2a6;
-    --white-color: #fff;
-    --heading-color: #323232;
-    --text-color: #999;
+  --top-nav-height: 94px;
+  --bottom-nav-height: 75px;
+  --primary-color: #de4949;
+  --white-color: #fff;
+  --heading-color: #323232;
+  --text-color: #999;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-    background-color: #f8f8f8;
+  background-color: #f8f8f8;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-ul, ol {
-    list-style: none;
+ul,
+ol {
+  list-style: none;
 }
 
 .white {
-    color: var(--white-color);
+  color: var(--white-color);
 }
 
 .text {
-    color: var(--text-color);
+  color: var(--text-color);
 }
 
 .primary {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .heading-text--large {
-    font-size: 46px;
-    font-weight: 500;
-    line-height: 1.4;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 1.4;
 }
 
 .heading-text--medium {
-    font-size: 26px;
-    font-weight: 500;
-    line-height: 1.5;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .heading-text--small {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.4;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
 }
 
 .section-text {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.8;
-    text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.8;
+  text-transform: uppercase;
 }
 
 .paragraph-text--400 {
-    font-size: 16px;
-    line-height: 1.8;
-    font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
 }

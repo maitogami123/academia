@@ -1,16 +1,16 @@
-@import url('./elements/btn.css');
-@import url('./section/header.css');
-@import url('./section/header-content.css');
-@import url('./section/benefits.css');
-@import url('./section/status.css');
-@import url('./section/courses.css');
-@import url('./section/online-courses.css');
-@import url('./section/testimonial.css');
-@import url('./section/blogs.css');
-@import url('./section/pricing.css');
-@import url('./section/subscribe.css');
-@import url('./section/footer.css');
-
+@import url("./elements/btn.css");
+@import url("./section/header.css");
+@import url("./section/header-content.css");
+@import url("./section/benefits.css");
+@import url("./section/status.css");
+@import url("./section/courses.css");
+@import url("./section/professional.css");
+@import url("./section/online-courses.css");
+@import url("./section/testimonial.css");
+@import url("./section/blogs.css");
+@import url("./section/pricing.css");
+@import url("./section/subscribe.css");
+@import url("./section/footer.css");
 
 /* .header {
     background-image: url('../img/header-background.webp');
@@ -222,9 +222,6 @@
 .btn:hover {
     box-shadow: none;
 } */
-
-
-
 
 /* Benefits */
 
